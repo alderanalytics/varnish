@@ -21,8 +21,8 @@ RUN \
   && rm -rf /var/lib/apt/lists/*
 
 # Install Varnish from source, so that Varnish modules can be compiled and installed.
-ENV VARNISH_VERSION=4.1.0
-ENV VARNISH_SHA256SUM=4a6ea08e30b62fbf25f884a65f0d8af42e9cc9d25bf70f45ae4417c4f1c99017
+ENV VARNISH_VERSION=4.1.3
+ENV VARNISH_SHA256SUM=9f9469b9fda2a578da2a9d282c71c34eeb5c42eda7f8d8728284d92282108429
 RUN \
   apt-get update && \
   mkdir -p /usr/local/src && \
